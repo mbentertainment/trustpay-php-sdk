@@ -1,5 +1,5 @@
 {
-  "name": "surikman/trustpay-php-sdk",
+  "name": "mbentertainment/trustpay-php-sdk",
   "description": "Easy unofficial trustpay PHP SDK",
   "minimum-stability": "stable",
   "license": "proprietary",
