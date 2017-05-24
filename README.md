@@ -1,12 +1,12 @@
 # trustpay-php-sdk
-Easy unofficial trustpay PHP SDK
+Easy unofficial trustpay PHP SDK, forked from https://github.com/surikman/trustpay-php-sdk
 
 Technical documentation - https://www.trustpay.eu/documents/technical/ 
 
 ## Install
 
 ```bash
-composer require surikman/trustpay-php-sdk
+composer require mbentertainment/trustpay-php-sdk
 ```
 
 ## Usage
