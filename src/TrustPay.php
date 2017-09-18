@@ -264,4 +264,34 @@ class TrustPay
         }
     }
 
+
+    /**
+     * @param      $transactionId
+     * @param      $amount
+     * @param      $reference
+     * @param null $currency
+     *
+     * @return Response
+     */
+    public function capture(
+        $transactionId,
+        $amount,
+        $reference,
+        $currency = null
+    ) {
+
+        $this->assertConfiguration();
+
+        $this->configuration->setPaymentType(Configuration::PAYMENT_TYPE_CARD);
+
+        $request = $this->requestFactory->createCapture(
+            $this->configuration,
+            $amount,
+            $reference,
+            $currency
+        );
+
+        return $request->capture($transactionId);
+    }
+
 }

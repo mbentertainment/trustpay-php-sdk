@@ -156,4 +156,30 @@ class RequestFactory
         $request->setNotificationUrl($configuration->getNotificationUrl());
         $request->setErrorUrl($configuration->getErrorUrl());
     }
+
+    /**
+     * @param Configuration $configuration
+     * @param               $amount
+     * @param               $reference
+     * @param null          $currency
+     *
+     * @return Capture\Request
+    */
+    public function createCapture(
+        Configuration $configuration,
+        $amount,
+        $reference,
+        $currency = null
+    ) {
+
+        return $this->createByClass(
+            Capture\Request::class,
+            $configuration,
+            $amount,
+            $reference,
+            null,
+            null,
+            $currency
+        );
+    }
 }
