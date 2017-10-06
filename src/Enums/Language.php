@@ -4,24 +4,24 @@ namespace TrustPay\Enums;
 
 class Language
 {
-    const BG = 'bg'; // Bulgarian
-    const BS = 'bs'; // Bosnian
-    const CZ = 'cs'; // Czech
-    const DE = 'de'; // German
-    const EN = 'en'; // English
-    const ES = 'es'; // Spanish
-    const ET = 'et'; // Estonian
-    const HR = 'hr'; // Croatian
-    const HU = 'hu'; // Hungarian
-    const IT = 'it'; // Italian
-    const LT = 'lt'; // Lithuanian
-    const LV = 'lv'; // Latvian
-    const PL = 'pl'; // Polish
-    const RO = 'ro'; // Romanian
-    const RU = 'ru'; // Russian
-    const SK = 'sk'; // Slovak
-    const SL = 'sl'; // Slovene
-    const SR = 'sr'; // Serbian
-    const TR = 'tr'; // Turkish
-    const UK = 'uk'; // Ukrainian
+    const BG = 'BG'; // Bulgarian
+    const BS = 'BS'; // Bosnian
+    const CZ = 'CS'; // Czech
+    const DE = 'DE'; // German
+    const EN = 'EN'; // English
+    const ES = 'ES'; // Spanish
+    const ET = 'ET'; // Estonian
+    const HR = 'HR'; // Croatian
+    const HU = 'HU'; // Hungarian
+    const IT = 'IT'; // Italian
+    const LT = 'LT'; // Lithuanian
+    const LV = 'LV'; // Latvian
+    const PL = 'PL'; // Polish
+    const RO = 'RO'; // Romanian
+    const RU = 'RU'; // Russian
+    const SK = 'SK'; // Slovak
+    const SL = 'SL'; // Slovene
+    const SR = 'SR'; // Serbian
+    const TR = 'TR'; // Turkish
+    const UK = 'UK'; // Ukrainian
 }
