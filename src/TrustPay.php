@@ -168,7 +168,14 @@ class TrustPay
             $currency
         );
 
-        return $request->payment($cardToken);
+        $request->setStoredCardToken($cardToken);
+
+        //default data
+        $data = ['REF' => $reference, 'RES' => ''];
+        $response = new Response($data);
+        $response->setRequestedUrl($request->getUrl());
+        return $response;
+        //return $request->payment($cardToken);
     }
 
 

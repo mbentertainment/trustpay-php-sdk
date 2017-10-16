@@ -54,6 +54,15 @@ class Request implements RequestInterface
     }
 
     /**
+     * @param $storedCardToken
+     * @return \TrustPay\CardOnFile\Request
+     */
+    public function setStoredCardToken($storedCardToken) {
+        $this->storedCardToken = $storedCardToken;
+        return $this;
+    }
+
+    /**
      * @return string
      */
     protected function buildQuery()
