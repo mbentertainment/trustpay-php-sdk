@@ -175,7 +175,6 @@ class TrustPay
         $response = new Response($data);
         $response->setRequestedUrl($request->getUrl());
         return $response;
-        //return $request->payment($cardToken);
     }
 
 
