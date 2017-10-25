@@ -79,7 +79,7 @@ trait RequestAwareTrait
      */
     public function setAmount($amount)
     {
-        $this->amount = number_format($amount, 2);
+        $this->amount = number_format($amount, 2, '.', '');
     }
 
     /**
